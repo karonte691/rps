@@ -17,6 +17,7 @@ $array = array with data(ex: array('param1' =>'value1', 'param2' => 'value2');
 
 Returns:
 TRUE -> all fine!
+
 FALSE -> there was an error with the procedure. The extension will output on the screen the error(or warning) that cause the problem
 
 
@@ -28,12 +29,16 @@ $var_name = name of var declared in send_rsp function
 
 Returns:
 Array() with the data
+
 NULL if something goes wrong
 
 TODO:
 
 -Extend support to PHP classes
+
 -Write an algorithm for avoid internal collision when the different scripts use the same var_name
+
 -Rewrite var shared queue 
+
 -Sanity checks
 
